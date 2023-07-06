@@ -2,7 +2,7 @@ public class WeatherCheck {
 
         public static void main(String[] args) {
             int temperature = 10; //current temperature
-            boolean currentlyRaining = true; //Is it raining?
+            boolean currentlyRaining = false; //Is it raining?
 
             if(temperature >= 20 && currentlyRaining) {
                 System.out.println("It's hot and raining! Wear shorts and bring an umbrella");
