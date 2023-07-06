@@ -1,7 +1,7 @@
 public class WeatherCheck {
 
         public static void main(String[] args) {
-            int temperature = 22; //current temperature
+            int temperature = 10; //current temperature
             boolean currentlyRaining = true; //Is it raining?
 
             if(temperature >= 20 && currentlyRaining) {
